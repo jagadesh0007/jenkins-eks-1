@@ -15,5 +15,8 @@ enable_dns_hostnames = true
     Name = "jenkins-vpc"
     Terraform = "true"
     Environment = "dev"
+}
+ public_subnet_tags = {
+    Name = "jenkins-subnet07"
   }
 }

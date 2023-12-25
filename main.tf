@@ -28,7 +28,7 @@ enable_dns_hostnames = true
 
   name        = "jenkins-sg"
   description = "Security group for jenkins server"
-  vpc_id      = module.vpc.vpc_id
+  vpc_id      = module.vpc.default_vpc_id
 
   ingress_with_cidr_blocks = [
     {
